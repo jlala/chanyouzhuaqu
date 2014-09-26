@@ -1,0 +1,243 @@
+@charset "UTF-8";
+html, body, ol, ul, li, figure, figcaption, h1, h2, h3, h4, h5, form {
+    margin: 0;
+    padding: 0;
+}
+i {
+    font-style: normal;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ol, ul, li {
+    list-style: none outside none;
+}
+p {
+    margin: 10px 0;
+}
+img {
+    border: 0 none;
+}
+button, input, select, textarea {
+    -moz-user-select: text !important;
+    font: 12px/1.5 Helvetica,Arial,sans-serif;
+    margin: 0;
+    vertical-align: middle;
+}
+button, button:active, input, input:active, select, select:active, textarea, textarea:active {
+    outline: medium none;
+}
+button, input {
+    line-height: normal;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+    outline: medium none;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+html, body {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: #000;
+    font: 12px/1.5 Helvetica,Arial,sans-serif;
+    height: 100%;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #333;
+}
+a.light {
+    color: #888;
+}
+a.light:hover {
+    color: #444;
+}
+
+.trips-wrapper-visible {
+    opacity: 1;
+}
+.trips-wrapper {
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    transition: opacity 0.3s linear 0s;
+    width: 100%;
+}
+
+.cover-header {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.17), 0 0 1px rgba(0, 0, 0, 0.76) inset;
+    color: #fff;
+    padding: 15px 25px 5px;
+    width: 100%;
+    min-height: 100%;
+    float: left;
+}
+
+.cover-header .meta .trip-info {
+    font-size: 14px;
+    height: 34px;
+    line-height: 22px;
+}
+
+.cover-header .meta .trip-info time {
+    padding-left: 15px;
+}
+.node-content .ico  {
+    background: url("/images/iconchanyouji.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 86px;
+    background-position: 0 -140px;
+    margin-left: 64px;
+}
+
+.viewport .node-content {
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.2s linear 0s;
+    z-index: 1;
+    padding:  20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.node-content{
+    height: 140px;
+    margin-top: 7px;
+    width: 860px;
+}
+
+.node-content .node-name {
+    font-family: "微软雅黑","黑体";
+    font-size: 20px;
+    color: #111;
+    width: 200px;
+    margin-left: 55px;
+}
+.node-content .node-name-en{
+    color: #888;
+    font-size: 16px;
+    width: 200px;
+    margin-left: 50px;
+}
+.node-content .top-right{
+    font-family: "微软雅黑","黑体";
+    margin-right: 25px;
+    margin-top: -143px;
+    width: 590px;
+    float: right;
+    font-size: 16px;
+    position: relative;
+}
+.node-content .top-right p {
+    color: #111;
+}
+.viewport{
+    margin: 0 auto;
+    width: 960px;
+}
+.travelconnect{
+    margin: 0 auto;
+    width: 960px;
+}
+.travelconnect .viewcontent{
+    background-color: #fff;
+    float: left;
+    margin-right: 50px;
+    width: 425px;
+    height: 300px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.has-clock{
+    color: #111;
+}
+.photo{
+    margin: 12px;
+    position: absolute;
+}
+.caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 210px 12px;
+    min-height: 18px;
+    position: absolute;
+    width: 400px;
+}
+
+.travelconnect .caption p {
+    max-height: 36px;
+    overflow: hidden;
+}
+.travelconnect .caption-o p {
+    max-height: 36px;
+    overflow: hidden;
+}
+.note-footer {
+    margin: 278px 10px;
+}
+.note-footer .action {
+    float: right;
+    padding-right: 10px;
+}
+.note-footer .action .like, .note-footer .action .comment {
+    color: #888;
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+    line-height: 18px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.note-footer .action .like .ico {
+
+    background: url("/images/xiaotu.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 16px;
+    width: 16px;
+    background-position: 0 -197px;
+}
+.note-footer .action .comment .ico {
+    background: url("/images/xiaotu.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 16px;
+    background-position: 0 -277px;
+    width: 18px;
+}
+
+footer {
+    color: #666;
+    font-size: 34px;
+    padding: 20px;
+    float: left
+}
+footer a {
+    color: #666;
+}
